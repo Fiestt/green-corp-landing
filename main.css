@@ -57,6 +57,14 @@ button:hover {
     align-items: center;
     padding-top: 115px;
     padding-bottom: 115px;
+    position: relative;
+}
+
+.orb-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
 }
 
 .about__info {
