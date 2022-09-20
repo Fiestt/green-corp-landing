@@ -9,10 +9,19 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    position: sticky;
+    position: fixed;
     top: 0;
-    background-color: #fff;
+    left: 0;
+    right: 0;
+    background-color: rgb(255 255 255 / 0%);
     z-index: 1;
+    transition: background-color 0.25s ease;
+    transition: box-shadow 0.25s ease;
+}
+
+.header__scrolled {
+    background-color: rgb(255 255 255);
+    box-shadow: 0 12px 34px -11px rgba(28, 10, 221, 0.1);
 }
 
 .header__logo {
@@ -55,7 +64,7 @@ button:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 115px;
+    padding-top: 200px;
     padding-bottom: 115px;
     position: relative;
 }
